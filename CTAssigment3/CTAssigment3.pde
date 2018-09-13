@@ -22,10 +22,10 @@ void draw()
     frame++;
     
     //DNA Lines
-    if(i%9 == 0) {
-      stroke(-sin(angle) * 250/2 + 250/2, 0, sin(angle) * 250/2 + 250/2, 250);
-      line (150 + angle * 50, 240 + sin(-angle + frame * 0.0004) * 50, 150 + angle * 50, 240 - cos(angle - frame * 0.0004) * 50);
-    }
+    //if(i%9 == 0) {
+    //  stroke(-sin(angle) * 250/2 + 250/2, 0, sin(angle) * 250/2 + 250/2, 250);
+    //  line (150 + angle * 50, 240 + sin(-angle + frame * 0.0004) * 50, 150 + angle * 50, 240 - cos(angle - frame * 0.0004) * 50);
+    //}
     
     if(i == 99)
       angle = 0;
