@@ -12,7 +12,7 @@ class CurveCreator {
     //Vart den ska börja
     
     axis1 = temp2;
-    //Vart punktne längst ned åt vänster ska hamna
+    //Vart punkten längst ned åt vänster ska hamna
     
     axis2 = temp3;
     //Vart punkten längst ned åt höger ska hamna
