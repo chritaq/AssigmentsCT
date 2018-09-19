@@ -17,7 +17,7 @@ void draw()
     stroke(250, 0, 0, 250);
     point(150 + angle * 50, 240 + sin(-angle + frame * 0.0004) * 50);
     stroke(0, 0, 250, 250);
-    point(150 + angle * 50, 240 - cos(angle - frame * 0.0004) * 50);
+    //point(150 + angle * 50, 240 - cos(angle - frame * 0.0004) * 50);
     angle += TWO_PI/100;
     frame++;
     

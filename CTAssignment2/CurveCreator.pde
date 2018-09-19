@@ -38,15 +38,10 @@ class CurveCreator {
         line(position, axis1 + i * 20, position + i * 20 + 20, axis2);
         if (i == 0) {
           numberOfLines = (axis2 - (axis1 + i * 20))/20;
-        }
-          
+        } 
       }
       else if(rotation == 1)
         line(position, axis1 + i * 20, position - i * 20 - 20, axis2);
-    
-
+    }
   }
-  
-}
-
 }

@@ -9,6 +9,8 @@ void setup()
 {
   size(640, 480);
   strokeWeight(5);
+  startx = width/2;
+  starty = height/2;
 }
 
 
@@ -16,8 +18,6 @@ void setup()
 void draw()
 {
   background(255);
-  startx = width/2;
-  starty = height/2;
   SplitCircle(8);
 }
 
